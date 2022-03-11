@@ -57,4 +57,11 @@
     height: 50vh;
     width: 100%;
     background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
+    color: white;
+    text-align: center;
+}
+.services h2{
+    font-size: 40px;
+    font-family: "poppins", sans-serif;
+    padding-top: 16vh;
 }
