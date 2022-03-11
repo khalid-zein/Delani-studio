@@ -38,3 +38,17 @@
     top: 69%;
     left: 50%;
 }
+.about{
+    height: 50vh;
+    width: 67%;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 17%;
+}
+.about p{
+    font-size: 18px;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+}
