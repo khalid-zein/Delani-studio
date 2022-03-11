@@ -53,3 +53,8 @@
     font-weight: 500;
     margin-top: 20px;
 }
+.services{
+    height: 50vh;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
+}
