@@ -39,7 +39,7 @@
     left: 50%;
 }
 .about{
-    height: 50vh;
+    height: 30vh;
     width: 67%;
     font-size: 20px;
     font-family: "poppins", sans-serif;
@@ -51,4 +51,5 @@
     font-size: 18px;
     font-family: "lato", sans-serif;
     font-weight: 500;
+    margin-top: 20px;
 }
