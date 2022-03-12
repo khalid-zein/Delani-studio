@@ -161,4 +161,19 @@ textarea::placeholder{
     padding-top: 20px;
     padding-left: 10px;
 }
+.social-icon{
+    position: relative;
+    left: 28%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.social-icon img{
+    margin: 20px;
+}
+p{
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
 
