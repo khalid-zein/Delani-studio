@@ -145,4 +145,20 @@ input::placeholder{
     font-family: "lato", sans-serif;
     padding-top: 5px;
 }
+form textarea{
+    width: 67%;
+    height: 300px;
+    position: relative;
+    left: 16%;
+    margin-top: 20px;
+    background-color: rgba(200, 100, 80, 0.001);
+    border: 1px solid white;
+}
+textarea::placeholder{
+    color: white;
+    font-size: 19px;
+    font-family: "lato", sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+}
 
