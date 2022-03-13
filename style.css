@@ -121,16 +121,30 @@
     font-family: "poppins", sans-serif;
     padding-top: 30px;
 }
-.portfolio img{
+.portfolio div img{
     margin: 10px;
     margin-top: 20px;
+    position: absolute;
 }
-.group-img{
-    margin-left: 8%;
+.portfolio .group-img{
+    padding-left: 8%;
 }
-.group-img2{
-    margin-left: 8%;
+.portfolio .group-img2{
+    padding-left: 8%;
+    margin-bottom: 30px;
+}
+.portfolio .group-img div{
+    display: inline-block;
+    height: 300px;
+    width: 366px;
+    margin: 10px;
+}
+.portfolio .group-img2 div{
     margin-bottom: 20px;
+    display: inline-block;
+    height: 300px;
+    width: 366px;
+    margin: 10px;
 }
 .contact{
     height: 70vh;
@@ -192,5 +206,19 @@ p{
     font-family: "poppins", sans-serif;
     font-weight: 500;
     margin-top: 5px;
+}
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    display: none;
+    color: black;
+    height: 315px;
+    width: 376px;
+    padding-top: 150px;
+    padding-left: 30px;
+    background-color:rgba(255, 255, 255, 0.456);
+    position:absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Delius Swash Caps', cursive; 
 }
 

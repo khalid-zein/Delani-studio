@@ -1,45 +1,77 @@
-// $(document).ready(function(){
-//     $(".image1").click(function(){
-//       $(".image1").slideDown('1500').hide('1000');
-//       $(".hidden").show('1500');
-//     });
-//     $(".hidden").click(function(){
-//       $(".hidden").slideUp('1500');
-//       $(".image1").slideDown('1500');
-//     });
-//   });
-
-  $(document).ready(function(){
-    $(".image1").click(function(){
-      $(".image1").toggle();
-      $(".hidden").toggle();
-    });
-    $(".hidden").click(function(){
-      $(".hidden").toggle();
-      $(".image1").toggle();
-    });
+$(document).ready(function(){
+  $(".image1").click(function(){
+    $(".image1").toggle();
+    $(".hidden").toggle();
   });
-
-  $(document).ready(function(){
-    $(".image2").click(function(){
-      $(".image2").toggle();
-      $(".hidden2").toggle();
-    });
-    $(".hidden2").click(function(){
-      $(".hidden2").toggle();
-      $(".image2").toggle();
-    });
+ $(".hidden").click(function(){
+   $(".hidden").toggle();
+   $(".image1").toggle();
   });
+});
 
-  $(document).ready(function(){
-    $(".image3").click(function(){
-      $(".image3").toggle();
-      $(".hidden3").toggle();
-    });
+$(document).ready(function(){
+  $(".image2").click(function(){
+    $(".image2").toggle();
+    $(".hidden2").toggle();
+  });
+ $(".hidden2").click(function(){
+   $(".hidden2").toggle();
+   $(".image2").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $(".image3").click(function(){
+    $(".image3").toggle();
+    $(".hidden3").toggle();
+  });
     $(".hidden3").click(function(){
       $(".hidden3").toggle();
       $(".image3").toggle();
-    });
   });
+});
+
+$(document).ready(function(){
+    $("#work1").mouseover(function(){
+      $("#overlay1").show();
+    }).mouseout(function(){
+      $("#overlay1").hide();
+    });
+    $("#work2").mouseover(function(){
+      $("#overlay2").show();
+    }).mouseout(function(){
+      $("#overlay2").hide();
+    });
+    $("#work3").mouseover(function(){
+      $("#overlay3").show();
+    }).mouseout(function(){
+      $("#overlay3").hide();
+    });
+    $("#work4").mouseover(function(){
+      $("#overlay4").show();
+    }).mouseout(function(){
+      $("#overlay4").hide();
+    });
+    $("#work5").mouseover(function(){
+      $("#overlay5").show();
+    }).mouseout(function(){
+      $("#overlay5").hide();
+    });
+    $("#work6").mouseover(function(){
+      $("#overlay6").show();
+    }).mouseout(function(){
+      $("#overlay6").hide();
+    });
+    $("#work7").mouseover(function(){
+      $("#overlay7").show();
+    }).mouseout(function(){
+      $("#overlay7").hide();
+    });
+    $("#work8").mouseover(function(){
+      $("#overlay8").show();
+    }).mouseout(function(){
+      $("#overlay8").hide();
+    });
+});
   
   
