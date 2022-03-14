@@ -22,21 +22,20 @@
     color: white;
     text-align: center;
     position: relative;
-    top: 43%;
-    padding-top: 32px;
+    top: 45%;
 }
 .hero-section h2{
     color: white;
     text-align: center;
     font-family: "poppins", sans-serif;
     position: relative;
-    top: 45%;
+    top: 43%;
     font-size: 20px;
 }
 .mouse{
     position: relative;
     top: 69%;
-    left: 50%;
+    left: 50%; 
     animation: bounce 2s infinite;
 }
 @keyframes bounce {
@@ -44,20 +43,19 @@
       transform: translateY(0);
     }
     40% {
-      transform: translateY(-55px);
+      transform: translateY(-35px);
     }
     60% {
-      transform: translateY(-45px);
+      transform: translateY(-25px);
     }
 }
 .about{
-    height: 30vh;
-    width: 67%;
+    height: 37vh;
+    width: 100%;
     font-size: 20px;
     font-family: "poppins", sans-serif;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 17%;
+    padding-top: 3%;
 }
 .about p{
     font-size: 18px;
@@ -84,54 +82,41 @@
     margin-top: 20px;
 }
 .what-we-do{
-    height: 30vh;
+    height: 35vh;
     width: 100%;
 }
 .what-we-do h2{
     text-align: center;
     font-size: 30px;
     font-family: "poppins", sans-serif;
-    padding-top: 30px;
+    padding-top: 2%;
+}
+.section{
+    display: flex;
 }
 .what-we-do div{
-    display: inline-block;
-    padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 180px;
-    width: 580px;
+    /* display: inline-block; */
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    /* width: 580px; */
 }
 .what-we-do div p{
     font-family: "lato", sans-serif;
 }
-.what-we-do .img{
-   padding-left: 120px;
-}
-.what-we-do .img1{
-    padding-left: 120px;
-}
-.what-we-do .img2{
-    padding-left: 80px;
-}
-.design{
-    padding-right: 80px;
-}
 .what-we-do .hidden{
     display: none;
 }
-.what-we-do .hidden p{
-    font-family: "lato", sans-serif;
-}
-.what-we-do .hidden2{
-    display: none;
-}
-.what-we-do .hidden3{
-    display: none;
+.closure {
+    text-align: center;
+    padding-top: 1%;
+    width: 500px;
 }
 .portfolio h2{
     text-align: center;
     font-size: 30px;
     font-family: "poppins", sans-serif;
-    padding-top: 30px;
+    padding-top: 1%;
 }
 .portfolio div img{
     margin: 10px;
@@ -139,7 +124,7 @@
     position: absolute;
 }
 .portfolio .group-img{
-    padding-left: 8%;
+    padding-left: 8%; 
 }
 .portfolio .group-img2{
     padding-left: 8%;
@@ -170,14 +155,13 @@
     font-size: 30px;
     font-family: "poppins", sans-serif;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 2%;
 }
 .contact form button{
     width: 300px;
     height: 50px;
-    position: relative;
-    left: 43%;
-    margin-top: 20px;
+    margin-left: 43%;
+    margin-top: 2%;
     border-radius: 15px;
     font-size: 25px;
     color: white;
@@ -185,16 +169,17 @@
     background-color: rgba(200, 120, 5, 0.001);
     cursor: pointer;
 }
+.contact form div{
+    margin-left: 15%;
+}
 .contact form input{
     background-color: rgba(200, 120, 5, 0.001);
     border: 1px solid white;
     width: 600px;
     height: 30px;
-    padding-left: 15px;
-    margin: 15px;
-    position: relative;
-    left: 15%;
-    margin-top: 30px;
+    padding-left: 1%;
+    margin: 1%;
+    margin-top: 2%;
     color: wheat;
     font-size: 20px;
 }
@@ -202,7 +187,6 @@ input::placeholder{
     color: white;
     font-size: 19px;
     font-family: "lato", sans-serif;
-    padding-top: 5px;
 }
 input:focus{
     border: none;
@@ -218,9 +202,8 @@ form textarea{
     font-family: "lato", sans-serif;
     width: 67%;
     height: 300px;
-    position: relative;
-    left: 16%;
-    margin-top: 20px;
+    margin-left: 16%;
+    margin-top: 1%;
     background-color: rgba(200, 100, 80, 0.001);
     border: 1px solid white;
 }
@@ -228,22 +211,23 @@ textarea::placeholder{
     color: white;
     font-size: 19px;
     font-family: "lato", sans-serif;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 2%;
+    padding-left: 1%;
 }
 .social-icon{
-    margin-left: 28%;
-    padding-top: 30px;
-    padding-bottom: 5px;
+    margin-left: 33%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 .social-icon img{
-    margin: 20px;
+    margin: 1%;
+    cursor: pointer;
 }
-p{
+.footer p{
     text-align: center;
     font-family: "poppins", sans-serif;
     font-weight: 500;
-    margin-top: 5px;
+    margin: 0;
 }
 #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     display: none;
@@ -267,7 +251,7 @@ p{
     left: 27%;
     top: 5%;
     background-color: rgba(200, 100, 7, 0.01);
-    border: 5px double white;
+    border: 4px double white;
     width: 45%;
     
 }
@@ -275,4 +259,3 @@ p{
     color: red;
     font-size: 15px;
 }
-
