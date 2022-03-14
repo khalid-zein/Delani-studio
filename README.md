@@ -28,6 +28,10 @@ https://khalid-zein.github.io/Delani-studio/
 3. [Bootstrap](https://)
 4. [Javascript](https://)
 
-|Behaviour         | Input         |                output|
-| -----------------| -----------   | -------------------- |
-| Enter your name  |  Khalid Zein  |                      |
+## BDD
+
+|## Behaviour             | Input                                 |                                     output|
+| ----------------------- | ------------------------------------- | ----------------------------------------- |
+| Enter your name         |  Khalid Zein                          |                                           |
+| Enter yor Email Addres  |  khalid zein@gmail.com                |                                           |
+| Enter your message      |  I would like to collaborate with you | Pop up"Khalid zein, we have received yor                                                                           message.Thank you for reaching out to us."
