@@ -15,7 +15,7 @@ https://khalid-zein.github.io/Delani-studio/
 
 1. Open terminal(Ctrl+Alt+T)
 
-2. git clone
+2. git clone git@github.com:khalid-zein/Delani-studio.git
 
 3. cd Delani-studio
 
