@@ -34,7 +34,7 @@ https://khalid-zein.github.io/Delani-studio/
 | ----------------------- | ------------------------------------- | ----------------------------------------- |
 | Enter your name         |  Khalid Zein                          |                                           |
 | Enter yor Email Addres  |  khalidzein@gmail.com                 |                                           |
-| Enter your message      |  I would like to collaborate with you | Pop up"Khalid zein, we have received yoor |                                                                         message.Thank you for reaching out to us."
+| Enter your message      |  I would like to collaborate with you | Pop up"Khalid zein, we have received your                                                                           message.Thank you for reaching out to us."|
 
 
 ## Contact
