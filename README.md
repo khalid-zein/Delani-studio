@@ -28,5 +28,6 @@ https://khalid-zein.github.io/Delani-studio/
 3. [Bootstrap](https://)
 4. [Javascript](https://)
 
-|Behaviour      | Input       |                output|
-| ------------- | ----------- | -------------------- |
+|Behaviour         | Input         |                output|
+| -----------------| -----------   | -------------------- |
+| Enter your name  |  Khalid Zein  |                      |
