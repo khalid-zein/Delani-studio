@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="https://cdn.3dnames.co/previews/ps30/250x250/d/ps30delani3dxx.jpg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -121,11 +122,14 @@
     </div>
 
     <div class="contact">
+        <p id="result"></p>
         <h2>CONTACT US</h2>
-        <form action="">
-            <input type="text" placeholder="Name...">
-            <input type="email" placeholder="Email..." required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
-            <textarea placeholder="Your message here..."></textarea>
+        <form action="" id="myForm">
+            <p id="error"></p>
+            <input type="text" placeholder="Name..." id="name">
+            <input type="email" placeholder="Email..." required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email"><br>
+            <textarea placeholder="Your message here..." id="message"></textarea><br>
+            <button id="btn">Submit</button>
         </form>
     </div>
 
@@ -144,6 +148,7 @@
     <P>2022</P>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
