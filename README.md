@@ -9,6 +9,8 @@ This project is a web application for Delani studio that has information about t
 
 ## Live Page
 
+https://khalid-zein.github.io/Delani-studio/
+
 ## installation
 
 1. Open terminal(Ctrl+Alt+T)
