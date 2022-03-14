@@ -33,5 +33,14 @@ https://khalid-zein.github.io/Delani-studio/
 |## Behaviour             | Input                                 |                                     output|
 | ----------------------- | ------------------------------------- | ----------------------------------------- |
 | Enter your name         |  Khalid Zein                          |                                           |
-| Enter yor Email Addres  |  khalid zein@gmail.com                |                                           |
-| Enter your message      |  I would like to collaborate with you | Pop up"Khalid zein, we have received yor                                                                           message.Thank you for reaching out to us."
+| Enter yor Email Addres  |  khalidzein@gmail.com                 |                                           |
+| Enter your message      |  I would like to collaborate with you | Pop up"Khalid zein, we have received yoor |                                                                         message.Thank you for reaching out to us."
+
+
+## Contact
+
++254794794734
+Email: zeinkhalid004@gmail.com
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
