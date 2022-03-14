@@ -80,12 +80,12 @@ btn.addEventListener("click", function(event) {
     let error = document.getElementById("error");
 
     if (Name === "" || email === "") {
-      return  error.innerHTML = "Enter your Name and Email!";
+      return  error.innerHTML = "Please enter your Name and Email!";
     }else if((Name) && (email)){
         result.innerHTML = Name + ", We have received your message, Thank you for reaching out to us";
     }
-    formReset();
     error.innerHTML = "";
+    formReset();
 
 });
 
