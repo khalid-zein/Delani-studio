@@ -30,7 +30,7 @@ https://khalid-zein.github.io/Delani-studio/
 
 ## BDD
 
-|## Behaviour             | Input                                 |                                     output|
+|Behaviour             | Input                                 |                                     output|
 | ----------------------- | ------------------------------------- | ----------------------------------------- |
 | Enter your name         |  Khalid Zein                          |                                           |
 | Enter yor Email Addres  |  khalidzein@gmail.com                 |                                           |
