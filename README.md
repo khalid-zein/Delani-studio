@@ -20,3 +20,10 @@ https://khalid-zein.github.io/Delani-studio/
 3. cd Delani-studio
 
 4. code . or atom . depending on the text editor of your choice.
+
+## Technologies Used
+
+1. [HTML](https://)
+2. [CSS](https://)
+3. [Bootstrap](https://)
+4. [Javascript](https://)
