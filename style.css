@@ -95,11 +95,9 @@
     display: flex;
 }
 .what-we-do div{
-    /* display: inline-block; */
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    /* width: 580px; */
 }
 .what-we-do div p{
     font-family: "lato", sans-serif;
@@ -260,4 +258,135 @@ textarea::placeholder{
     color: red;
     font-size: 15px;
     text-align: center;
+}
+@media (max-width: 480px) {
+    .hero-section{
+        height: 450px;
+    }
+    .logo{
+        width: 60px;
+        left: 44%;
+        top: 23%;
+    }
+    .hero-section p{
+        font-size: 25px;
+    }
+    .hero-section h2{
+        font-size: 11px;
+    }
+    .mouse{
+        top: 60%;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    .services h2{
+        font-size: 20px;
+    }
+    .services p{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .what-we-do{
+        height: 50vh;
+    }
+    .what-we-do h2{
+        font-size: 20px;
+    }
+    .what-we-do div{
+        display: block;
+        width: 100%;
+    }
+    .closure .hidden p{
+        width: 40%;
+        margin-left: 30%;
+        padding-top: 0px;
+    }
+    .closure p{
+        font-size: 8px;
+    }
+    .closure img{
+        width: 30px;
+
+    }
+    .portfolio h2{
+        font-size: 20px;
+    }
+    .portfolio .group-img div{
+        display: inline-block;
+        height: 85px;
+        width: 100px;
+        margin: 2px;
+    }
+    .portfolio .group-img2 div{
+        display: inline-block;
+        height: 85px;
+        width: 100px;
+        margin: 2px;
+    }
+    .portfolio div img{
+        width: 100px;
+    }
+    .portfolio .group-img{
+        padding-left: 4%; 
+    }
+    .portfolio .group-img2{
+        padding-left: 4%;
+    }
+    #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+        height: 82px;
+        width: 100px;
+        padding-top: 35px;
+        padding-left: 0px;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 8px;
+    }
+    #result{
+        font-size: 8px;
+        border: 3px double white;
+        width: 62%;
+        left: 18%;
+    }
+    #error{
+        font-size: 8px;
+    }
+    .contact h2{
+        font-size: 20px;
+    }
+    .contact div input{
+        width: 155px;
+        height: 20px;
+        font-size: 11px;
+    }
+    .contact div input::placeholder{
+        font-size: 10px;
+        padding-top: 0%;
+    }
+    .contact textarea{
+        height: 150px;
+        font-size: 10px;
+    }
+    textarea::placeholder{
+        font-size: 10px;
+    }
+    #btn{
+        height: 30px;
+        width: 120px;
+        font-size: 15px;
+        margin-left: 38%;
+    }
+    .social-icon{
+        margin-left: 22%;
+    }
+    .social-icon img{
+        width: 20px;
+    }
+    .footer p{
+       font-size: 8px;
+    }
 }
