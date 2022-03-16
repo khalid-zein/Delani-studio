@@ -82,7 +82,7 @@
     margin-top: 20px;
 }
 .what-we-do{
-    height: 35vh;
+    height: 70%;
     width: 100%;
 }
 .what-we-do h2{
@@ -264,7 +264,7 @@ textarea::placeholder{
         height: 450px;
     }
     .logo{
-        width: 60px;
+        width: 12%;
         left: 44%;
         top: 23%;
     }
@@ -292,7 +292,7 @@ textarea::placeholder{
         margin-top: 0px;
     }
     .what-we-do{
-        height: 50vh;
+        height: 50%;
     }
     .what-we-do h2{
         font-size: 20px;
@@ -311,46 +311,50 @@ textarea::placeholder{
     }
     .closure img{
         width: 30px;
-
     }
     .portfolio h2{
         font-size: 20px;
     }
     .portfolio .group-img div{
         display: inline-block;
-        height: 85px;
-        width: 100px;
-        margin: 2px;
+        width: 20%;
+        height: 25%;
+        margin: 1%;
+        margin-bottom: 10%;
     }
     .portfolio .group-img2 div{
         display: inline-block;
-        height: 85px;
-        width: 100px;
-        margin: 2px;
+        width: 20%;
+        height: 25%;
+        margin: 1%;
+        margin-top: 7%;
+        margin-bottom: 15%;
     }
     .portfolio div img{
-        width: 100px;
+        width: 18%;
     }
     .portfolio .group-img{
-        padding-left: 4%; 
+        padding-left: 5%; 
     }
     .portfolio .group-img2{
-        padding-left: 4%;
+        padding-left: 5%;
     }
     #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-        height: 82px;
-        width: 100px;
-        padding-top: 35px;
+        height: 13%;
+        width: 19%;
+        margin: 2%;
+        padding-top: 7%;
         padding-left: 0px;
-        margin-left: 10px;
-        margin-top: 20px;
-        font-size: 8px;
+        margin-left: 2%;
+        margin-top: 4%;
+        font-size: 30%;
     }
     #result{
         font-size: 8px;
         border: 3px double white;
         width: 62%;
         left: 18%;
+        margin-bottom: 5%;
     }
     #error{
         font-size: 8px;
@@ -359,7 +363,7 @@ textarea::placeholder{
         font-size: 20px;
     }
     .contact div input{
-        width: 155px;
+        width: 38%;
         height: 20px;
         font-size: 11px;
     }
@@ -375,16 +379,16 @@ textarea::placeholder{
         font-size: 10px;
     }
     #btn{
-        height: 30px;
-        width: 120px;
-        font-size: 15px;
-        margin-left: 38%;
+        height: 20%;
+        width: 28%;
+        font-size: 12px;
+        margin-left: 36%;
     }
     .social-icon{
-        margin-left: 22%;
+        margin-left: 20%;
     }
     .social-icon img{
-        width: 20px;
+        width: 6%;
     }
     .footer p{
        font-size: 8px;

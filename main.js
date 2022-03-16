@@ -4,24 +4,24 @@ $(document).ready(function(){
       $("#design").toggle('show');
     });
     $("#design").click(function(){
-      $("#design").toggle();
-      $(".image1").toggle();
+      $("#design").toggle('hide');
+      $(".image1").toggle('show');
     });
     $(".image2").click(function(){
       $(".image2").toggle('hide');
       $("#development").toggle('show');
     });
     $("#development").click(function(){
-      $("#development").toggle();
-      $(".image2").toggle();
+      $("#development").toggle('hide');
+      $(".image2").toggle('show');
     });
     $(".image3").click(function(){
       $(".image3").toggle('hide');
       $("#product").toggle('show');
     });
     $("#product").click(function(){
-      $("#product").toggle();
-      $(".image3").toggle();
+      $("#product").toggle('hide');
+      $(".image3").toggle('show');
     });
     $("#work1").mouseover(function(){
       $("#overlay1").show();
